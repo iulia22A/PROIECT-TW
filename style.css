@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    /* Global styles */
+    body {
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    }
+    
+    a {
+    color: #000;
+    text-decoration: none;
+    }
+    
+    img {
+    max-width: 100%;
+    height: auto;
+    }
+    
+    /* TopBar styles */
+    .topbar {
+    background-color: black;
+    text-align: center;
+    }
+    
+    .topbar-text marquee {
+        display: inline-block;
+        white-space: nowrap;
+        overflow: hidden;
+        animation: marquee 15s linear infinite;
+        font-size: 14px; 
+        color: #fff; /* white text color */
+        background-color: #000; /* black background */
+      }
+      
+      @keyframes marquee {
+        0% {
+          transform: translateX(100%);
+        }
+        100% {
+          transform: translateX(-100%);
+        }
+      }
+      
+      .container-logo {
+        display: flex;
+        max-width: 500%;
+        max-height: 500%;
+      }
+      
+    /* Header styles */
+    header {
+    background-color: #fff;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    }
+    
+    .logo {
+    display: inline-block;
+    }
+    
+    .logo img {
+    width: 6.25rem;
+    height: auto;
+    }
+    
+    nav ul {
+    list-style: none;
+    display: inline-block;
+    }
+    
+    nav li {
+    display: inline-block;
+    margin-right: 1.25rem;
+    }
+    
+    nav a {
+    font-weight: bold;
+    transition: all 0.3s ease;
+    }
+    
+    nav a:hover {
+    color: #ccc;
+    }
+    
+    /* Hero section styles */
+    .hero {
+    position: relative;
+    height: 31.25rem;
+    overflow: hidden;
+    }
+    
+    .parallax {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    transform: translateZ(0);
+    }
+    
+    .parallax img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    transform: translate3d(0, 0, 0);
+    filter: brightness(50%);
+    }
+    
+    .hero .container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: #fff;
+    text-align: center;
+    }
+    
+    .hero h1 {
+    font-size: 4rem;
+    margin-bottom: 1.25rem;
+    }
+    
+    .hero p {
+    font-size: 1.5rem;
+    }
+    
+    /* Side by side section styles */
+    .container .row {
+    margin-bottom: 1rem;
+    }
+    
+    .container .row:last-child {
+    margin-bottom: 0;
+    }
+    
+    .container .col-lg-6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    }
+    
+    .container .col-lg-6 img {
+    margin-bottom: 1.25rem;
+    }
+    
+    .container .col-lg-6 h2 {
+    font-size: 2rem;
+    margin-bottom: 1.25rem;
+    }
+    
+    .container .col-lg-6 p {
+    margin-bottom: 1.25rem;
+    }
+
+    /* Contact Section */
+#contact {
+    background-color: #f5f5f5;
+    padding: 50px;
+  }
+  
+  #contact h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  #contact p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  #contact form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  #contact label {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  #contact input[type="text"],
+  #contact input[type="email"],
+  #contact textarea {
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
+  }
+  
+  #contact input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #contact input[type="submit"]:hover {
+    background-color: #0069d9;
+  }
+  
+  /* Footer Section */
+  footer {
+    background-color: #222;
+    color: #fff;
+    padding: 50px 0;
+  }
+  
+  footer p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  footer ul li {
+    margin-bottom: 10px;
+  }
+  
+  footer ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  footer ul li a:hover {
+    text-decoration: underline;
+  }
+  
