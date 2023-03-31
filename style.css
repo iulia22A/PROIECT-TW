@@ -45,48 +45,97 @@
         }
       }
       
-      .container-logo {
-        display: flex;
-        max-width: 500%;
-        max-height: 500%;
-      }
-      
     /* Header styles */
+
     header {
-    background-color: #fff;
-    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
-    position: sticky;
-    top: 0;
-    z-index: 999;
+      background-color: #fff;
+      box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+      position: sticky;
+      top: 0;
+      z-index: 999;
     }
-    
-    .logo {
-    display: inline-block;
+
+    .container-menu {
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
     
     .logo img {
-    width: 6.25rem;
-    height: auto;
+      width: 16rem;
+      height: auto;
+      margin-right: 2rem;
+      padding: 1rem;
     }
     
     nav ul {
-    list-style: none;
-    display: inline-block;
+      list-style: none;
+      margin: 0;
+      padding: 0;
     }
     
     nav li {
-    display: inline-block;
-    margin-right: 1.25rem;
+      display: inline-block;
+      margin-left: 1.25rem;
     }
     
     nav a {
-    font-weight: bold;
-    transition: all 0.3s ease;
+      transition: all 0.3s ease;
     }
     
     nav a:hover {
-    color: #ccc;
+      color: #ccc;
     }
+    
+    .search {
+      display: inline-block;
+      margin-left: 1.25rem;
+      margin-right: 1.25rem;
+      padding: 0.5rem;
+      position: relative;
+    }
+    
+    .search-icon {
+      display: block;
+      width: 100%;
+      height: 100%;
+      background-image: url(search.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size:contain;
+    }
+    
+form {
+  display: inline-block;
+  position: relative;
+}
+
+input[type="text"] {
+  height: 2rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 0.25rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding-right: 2.5rem;
+}
+
+button[type="submit"] {
+  position: absolute;
+  top: 50%;
+  right: 0.25rem;
+  transform: translateY(-50%);
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: #888;
+}
+
+button[type="submit"]:hover {
+  color: #555;
+}
     
     /* Hero section styles */
     .hero {
