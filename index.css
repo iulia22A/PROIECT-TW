@@ -1,0 +1,96 @@
+body {
+    min-height: 3000px;
+  }
+  .header {
+    background-color: #191f25;
+    color: white;
+    text-align: center;
+  }
+  a {
+    text-decoration: none;
+    color: initial;
+    padding-right: 30px;
+  }
+  .logo-image {
+    height: 100px;
+    width: 200px;
+    object-fit: contain;
+  }
+  .container-fluid {
+    margin:0
+
+  }
+  input {
+    border: 0
+  }
+  input:focus {
+    outline: 0;
+  }
+  #Message {
+    border: 2px #dee2e6 solid;
+    height: 250px;
+    border-radius:5px
+  }
+
+  #hero-banner {
+    background-image: url("imagini/hero\ section.png");
+    background-size: cover;
+    background-position: bottom;
+    min-height: 700px;
+  }
+  .pediatric {
+    font-size: 60px;
+  }
+  .pediatric-details {
+    max-width: 600px;
+    margin: auto;
+  }
+  button {
+    border: 2px black solid;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: transparent;
+    transition-duration: 0.5s;
+    max-width: fit-content;
+  }
+  button:hover {
+    background-color: black;
+    color: white;
+  }
+  img {
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+  }
+  .contact-us {
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 40px;
+    margin-bottom:20px;
+
+  }
+  .email-section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 630px;
+    margin-top: 20px;
+    row-gap: 15px ;
+  }
+  .footer {
+    background-color: black;
+    color: white;
+    margin-top: 50px;
+    padding-top: 15px;
+    min-height:200px
+  }
+  .footer-logo-black {
+    filter: brightness(0) invert(1);
+    object-fit: contain;
+    height: 50px;
+ }

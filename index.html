@@ -1,129 +1,205 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HomePage</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
-
-  <div class="topbar">
-    <div class="container-text">
-      <div class="topbar-text">
-        <span class="scrolling-text">Aenean non purus! Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/index.css" />
+  </head>
+  <body>
+    <div class="header p-2 row container-fluid">
+      <div class="row">
+        <span style="font-weight: bold"
+          >Aenean non purus!
+          <span style="font-weight: initial"
+            >Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span
+          ></span
+        >
       </div>
     </div>
-  </div>
-
-
-      <header>
-          <div class="logo">
-            <a href="#"><img src="logo.png" alt="Logo"></a>
+    <div class="container-fluid">
+      <div class="row header-2">
+        <div class="col-3 logo">
+          <img
+            class="p-4 logo-image"
+            src="/imagini/LearnCube logo wordmark -high res 1.png"
+            alt="logo"
+          />
+        </div>
+        <div class="col-xl d-none d-xl-inline" style="padding-right: 0">
+          <div class="border-bottom p-3 ps-0">
+            <a href="https://www.youtube.com" target="_blank">Home</a>
+            <a href="https://www.youtube.com" target="_blank">About us</a>
+            <a href="https://www.youtube.com" target="_blank">Shop</a>
+            <a href="https://www.youtube.com" target="_blank">Catalogue</a>
+            <a href="https://www.youtube.com" target="_blank">Contact us</a>
           </div>
-        <div class="container-menu">
-          <nav>
-            <ul class="menu">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About Us</a></li>
-              <li><a href="#">Shop</a></li>
-              <li><a href="#">Catalogue</a></li>
-              <li><a href="#">Contact Us</a></li>
-
-              <li class="search">
-                <form action="#" method="get">
-                  <input type="text" name="search" placeholder="Search....">
-                  <button type="submit">
-                  </span>
-                </form>
-              </li>
-            </ul>
-          </nav>
+          <div class="p-3 text-center">
+            <span>Services</span>
+            <span>Our work</span>
           </div>
         </div>
-      </header>
-      
-
-          <div class="container-sub-menu">
-          <nav>
-            <ul class="sub-menu">
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Our work</a></li>
-            </ul>
-          </nav>
+        <div class="col d-inline d-xl-none"></div>
+        <div class="col-lg col-sm-5 col-6" style="padding: 0">
+          <div class="border-bottom p-2 ps-0" style="margin-top: 14px">
+            <img
+              src="/imagini/search-icon.webp"
+              alt="search icon"
+              style="height: 14px; width: 14px"
+            />
+            <input type="text" placeholder="Search..." />
+          </div>
+          <div class="col d-none hamburger-menu">
+            <img src="/imagini/hamburger.png" alt="yummy burger" />
+          </div>
+          <div class="p-3"></div>
         </div>
-
- <!-- Hero section -->
-      <section class="hero">
-        <div class="parallax">
-          <img src="background.png" alt="Background">
+      </div>
+    </div>
+    <div class="container-fluid" id="hero-banner">
+      <div class="row p-5">
+        <div class="text-center">
+          <h5 class="m-3">
+            Annual Congress 2021 <font style="color: #48c0f8">10-11 Juni</font>
+          </h5>
+          <h1 class="m-4 pediatric">Pediatric Integrative Medicine</h1>
+          <div class="mb-5 pediatric-details">
+            <span style="font-weight: 500">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
+              sed ipsum obcaecati omnis nobis praesentium assumenda pariatur a
+              possimus sunt.
+            </span>
+          </div>
+          <button>Register</button>
         </div>
-        <div class="container">
-          <h2>Annual Congress<span class="blue">  10-11 Juni</span></h2>
-          <h1>Pediatric Integrative Medicine</h1>
-          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean non purus in justo luctus ornare. Sed a venenatis tellus.</p>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row mt-5">
+        <div class="col-lg-7 col-12">
+          <img
+            class="image-with-pyramid"
+            src="imagini/pyramid-whatever.jpg"
+            alt="pyramid"
+          />
         </div>
-      </section>
-
-
-      <!-- Side by side section -->
-      
-      <div class="container_1">
-        <h2>Neque porro quisquam est qui dolorem</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean non purus in justo luctus ornare. Sed a venenatis tellus. Mauris sit amet iaculis justo. Aenean nunc erat viverra sit amet ex sed, interdum accumsan sem. Donec interdum accumsan semper. Pellentesque vitae viverra tellus. Fusce sit amet lectus eu mauris cursus mattis vitae id nisi. Donec massa diam, tincidunt at vehicula eget, tempus vel sapien. Morbi gravida facibus dolor, vitae consectetur justo. Nullam volutpat, felis et volutpat pretium, massa purus pharetra libero quis maximus mauris nisi a mauris.</p>
+        <div class="col-lg-5 col-12" style="text-align: start">
+          <h1 style="font-weight: bolder">
+            Neque porro quisquan est qui dolorem.
+          </h1>
+          <h5 class="my-5">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est,
+            doloremque cum nemo, asperiores alias hic pariatur ab sapiente at
+            odit et labore similique eos ipsa eveniet nisi magnam modi quas,
+            quod necessitatibus autem exercitationem dolores. Quae labore
+            quaerat quia perspiciatis odit harum, vitae asperiores vel repellat,
+            est quibusdam reprehenderit quasi?
+          </h5>
+          <button>Learn More</button>
+        </div>
       </div>
-      <br>
-      
-      <div class="img1">
-        <img src="banana.png">
-      </div>
-        
-      <div class="container_2">
-        <h2>Title 2</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod massa ut nulla faucibus blandit.</p>
-      </div>
-
-      <div class="img2">
-        <img src="banana.png">
-      </div>
-      
-      
-      <section id="contact">
-        <div class="container">
-          <h2>Contact Us</h2>
-          <div class="row">
-            <div class="col-md-6">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3533.165166512618!2d-80.19733158524764!3d25.79508558361456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9b62a240e3e3b%3A0x686e907d22b331cb!2sMiami%20Beach%2C%20FL%2C%20USA!5e0!3m2!1sen!2sro!4v1648061472057!5m2!1sen!2sro" width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
-            </div>
-            <div class="col-md-6">
-              <form>
-                <div class="form-group">
-                  <label for="name">Name</label>
-                  <input type="text" class="form-control" id="name" placeholder="Enter your name">
-                </div>
-                <div class="form-group">
-                  <label for="email">Email address</label>
-                  <input type="email" class="form-control" id="email" placeholder="Enter your email">
-                </div>
-                <div class="form-group">
-                  <label for="message">Message</label>
-                  <textarea class="form-control" id="message" rows="5"></textarea>
-                </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
-              </form>
-            </div>
+    </div>
+    <div class="container">
+      <div class="row text-center mt-5">
+        <div class="col-lg col-xs-12">
+          <div style="text-align: start">
+            <h1 style="font-weight: bolder">Neque porro quisquam est qui.</h1>
+            <h5>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui
+              harum molestias repudiandae ullam? Eaque eum est velit incidunt,
+              ad vel.
+            </h5>
+            <img
+              class="crashing-waves"
+              src="imagini/crashing waves.jpg"
+              alt="crashing waves"
+            />
           </div>
         </div>
-      </section>
-
-      <footer>
-        <img src="logo.png" alt="logo companie">
-        <ul class="footer-menu">
-          <li><a href="#">Politica de confidențialitate</a></li>
-          <li><a href="#">Termeni și condiții</a></li>
-        </ul>
-      </footer>
-      
-</body>
+        <div class="col-lg col-xs-12">
+          <img
+            class="foamy-sea"
+            src="/imagini/1-1-c63fcf64fe1ff57.jpg"
+            alt="foamy sea"
+          />
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center contact-us">Contact Us</div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg col-xs-12">
+          <img
+            style="max-height: 550px; max-width: 550px"
+            src="/imagini/maps.png"
+            alt="maps"
+          />
+        </div>
+        <div class="col-lg col-xs-12">
+          <input
+            type="text"
+            placeholder="First name"
+            class="col-5 border-bottom me-2 mt-3"
+          />
+          <input
+            type="text"
+            placeholder="Last name"
+            class="col-5 border-bottom me-2 mt-3"
+          />
+          <input
+            type="tel"
+            placeholder="Phone"
+            class="col-5 border-bottom me-2 mt-3"
+          />
+          <input
+            type="email"
+            placeholder="Email"
+            class="col-5 border-bottom me-2 mt-3"
+          />
+          <div class="email-section col-12">
+            <span>Message</span>
+            <input type="text" name="Message" id="Message" />
+            <button>Send</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row footer">
+        <div class="col-4">
+          <img
+            class="footer-logo-black"
+            src="/imagini/LearnCube logo wordmark -high res 1.png"
+            alt=""
+          />
+        </div>
+        <div class="col-6 row">
+          <div class="col-6">Home</div>
+          <div class="col-6">Blogs</div>
+          <div class="col-6">About Us</div>
+          <div class="col-6">Resources</div>
+          <div class="col-6">Shop</div>
+          <div class="col-6">Team Members</div>
+          <div class="col-6">Catalogue</div>
+          <div class="col-6">Case Studies</div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
