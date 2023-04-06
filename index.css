@@ -1,128 +1,98 @@
-/* This is the CSS code for the header section of a web page */
-header {
-background-color: #191f25; 
-color: white; 
-text-align: center; 
+.header {
+  background-color: #191f25;
+  color: white;
+  text-align: center;
 }
-
-/* This is the CSS code for hyperlink text */
 a {
-text-decoration: none; /* remove underline from hyperlink */
-color: initial; /* set hyperlink color */
-padding-right: 30px; /* add right padding to hyperlink */
+  text-decoration: none;
+  color: initial;
+  padding-right: 30px;
 }
-
-/* This is the CSS code for the logo image */
 .logo-image {
-height: 100px; 
-width: 200px; 
-object-fit: contain; /* fit the logo image inside the defined width and height */
+  height: 100px;
+  width: 200px;
+  object-fit: contain;
 }
-
-/* This is the CSS code for the hamburger menu icon */
 .hamburger {
-align-self: center; /* align the hamburger icon vertically */
-text-align: end; /* align the hamburger icon to the right */
-margin-right: 40px; /* add right margin to the hamburger icon */
+  align-self: center;
+  text-align: end;
+  margin-right: 40px;
 }
-
-/* This is the CSS code for the hamburger menu icon */
 .hamburger-menu {
-width: 30px; /* set width of the hamburger menu icon */
-height: 30px; /* set height of the hamburger menu icon */
+  width: 30px;
+  height: 30px;
 }
-
-/* This is the CSS code for the container-fluid class */
 .container-fluid {
-margin: 0; /* set margin of the container-fluid class to 0 */
+  margin: 0;
 }
-
-/* This is the CSS code for the input element */
 input {
-border: 0; /* remove the border of the input element */
+  border: 0;
 }
-
-/* This is the CSS code for the input element when it's in focus */
 input:focus {
-outline: 0; /* remove outline when input element is in focus */
+  outline: 0;
 }
-
-/* This is the CSS code for the element with the ID "Message" */
 #Message {
-border-radius: 5px; /* add rounded corners to the element with ID "Message" */
-resize: none; /* disable resizing of the element with ID "Message" */
+  border-radius: 5px;
+  resize: none;
 }
 
-/* This is the CSS code for the hero-banner section */
 #hero-banner {
-background-image: url("imagini/hero\ section.png"); /* set background image of the hero-banner section */
-background-size: cover; /* cover the entire background with the image */
-background-position: bottom; /* position the background image to the bottom */
-min-height: 700px; /* set the minimum height of the hero-banner section */
+  background-image: url("imagini/hero\ section.png");
+  background-size: cover;
+  background-position: bottom;
+  min-height: 700px;
 }
-
-/* This is the CSS code for an element with class "pediatric" */
 .pediatric {
-font-size: 40px; /* set font size for an element with class "pediatric" */
+  font-size: 40px;
 }
-
-/* This is the CSS code for an element with class "pediatric-details" */
 .pediatric-details {
-max-width: 600px; /* set maximum width for an element with class "pediatric-details" */
-margin: auto; /* center an element with class "pediatric-details" horizontally */
+  max-width: 600px;
+  margin: auto;
 }
-
 button {
-  border: 2px black solid; /* Set border properties */
-  padding: 10px; /* Add padding */
-  padding-left: 50px; /* Add left padding */
-  padding-right: 50px; /* Add right padding */
-  font-weight: bold; /* Set font weight */
-  border-radius: 5px; /* Set border radius */
-  background-color: transparent; /* Set background color */
-  transition-duration: 0.5s; /* Set transition duration */
-  max-width: fit-content; /* Set maximum width to fit content */
+  border: 2px black solid;
+  padding: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-weight: bold;
+  border-radius: 5px;
+  background-color: transparent;
+  transition-duration: 0.5s;
+  max-width: fit-content;
 }
-
 button:hover {
-  background-color: black; /* Change background color on hover */
-  color: white; /* Change text color on hover */
+  background-color: black;
+  color: white;
 }
-
 img {
-  border-radius: 5px; /* Set border radius */
-  width: 100%; /* Set width to 100% */
-  height: 100%; /* Set height to 100% */
-  object-fit: cover; /* Scale image to cover container */
+  border-radius: 5px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
-
 .contact-us {
-  font-weight: bold; /* Set font weight */
-  font-size: 40px; /* Set font size */
-  margin-top: 40px; /* Add top margin */
-  margin-bottom: 20px; /* Add bottom margin */
+  font-weight: bold;
+  font-size: 40px;
+  margin-top: 40px;
+  margin-bottom: 20px;
 }
-
 .email-section {
-  display: flex; /* Use flexbox for layout */
-  flex-direction: column; /* Set flex direction */
-  flex-wrap: wrap; /* Wrap items to new line when there's no more space */
-  max-width: 630px; /* Set maximum width */
-  margin-top: 20px; /* Add top margin */
-  row-gap: 15px; /* Set gap between rows */
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-width: 630px;
+  margin-top: 20px;
+  row-gap: 15px;
 }
-
 .footer {
-  background-color: black; /* Set background color */
-  color: white; /* Set text color */
-  margin-top: 50px; /* Add top margin */
-  padding-top: 15px; /* Add top padding */
-  min-height: 200px; /* Set minimum height */
+  background-color: black;
+  color: white;
+  margin-top: 50px;
+  padding-top: 15px;
+  min-height: 200px;
 }
-
 .footer-logo-black {
-  filter: brightness(0) invert(1); /* Invert the colors */
-  object-fit: contain; /* Scale image to fit container */
-  height: 50px; /* Set height */
+  filter: brightness(0) invert(1);
+  object-fit: contain;
+  height: 50px;
 }
-
