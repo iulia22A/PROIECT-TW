@@ -37,10 +37,9 @@ input:focus {
 }
 
 #hero-banner {
-  background-image: url("imagini/hero\ section.png");
-  background-size: cover;
-  background-position: bottom;
-  min-height: 700px;
+  position:relative;
+  overflow:hidden;
+  height: 700px;
 }
 .pediatric {
   font-size: 40px;
@@ -49,6 +48,92 @@ input:focus {
   max-width: 600px;
   margin: auto;
 }
+@media (min-width: 1870px) {
+.parallax {
+display: block;
+}
+#hero-banner {
+  background-color: #e8ebf1;
+}
+}
+@media (max-width: 1869px) {
+  .parallax {
+    display: none;
+  }
+  #hero-banner {
+    background-image: url("imagini/hero\ section.png");
+background-size: cover;
+background-position: bottom;
+
+  }
+  .just_background {
+background-image: url("imagini/hero\ section.png");
+background-size: cover;
+background-position: bottom;
+width:100%;
+height: 700px;
+  }
+}
+.blue_cloud {
+            position: absolute;
+            height: auto;
+            width: 800px;
+            left: -20px;
+            bottom: 0;
+            padding: 0;
+
+}
+.blue_cloud2 {
+  position: absolute;
+            height: auto;
+            width: 450px;
+            left: -60px;
+            bottom: 0;
+            padding: 0;
+}
+.bridge {
+  position: absolute;
+  height: auto;
+  width: 1300px;
+  right: 15%;
+  bottom: 0;
+  padding: 0;
+}
+.yellow_cloud {
+  position: absolute;
+            height: auto;
+            width: 800px;
+            right: 0;
+            bottom: 0;
+            padding: 0;
+}
+.yellow_cloud2 {
+   position: absolute;
+            height: auto;
+            width: 600px;
+            right: 0;
+            bottom: 0;
+            padding: 0;
+}
+.building1 {
+  position: absolute;
+            height: auto;
+            width: 550px;
+            left: 250px;
+            bottom: 0;
+            padding: 0;
+}
+.building2 {
+
+   position: absolute;
+            height: auto;
+            width: 100%;
+            right: 0;
+            bottom: 0;
+            padding: 0;
+}
+
+
 button {
   border: 2px black solid;
   padding: 10px;
